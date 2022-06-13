@@ -1,4 +1,6 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<h3>
+  <a [routerLink]="['homecomponent']">Home | </a>
+  <a [routerLink]="['taskcomponent']"> Tarefas </a>
+</h3>
+
+<router-outlet></router-outlet>
