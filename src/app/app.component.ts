@@ -1,7 +1,5 @@
 import { Component, VERSION } from '@angular/core';
 
-import * as firebase from 'firebase/app';
-
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
