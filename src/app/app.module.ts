@@ -8,12 +8,10 @@ import { RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { TaskComponent } from './task/task.component';
 import { TasksService } from './tasks.service';
-import { AngularFireDatabaseModule } from '@angular/fire/compat/database/database.module';
 
 @NgModule({
   imports: [
     BrowserModule,
-    AngularFireDatabaseModule,
     FormsModule,
     RouterModule.forRoot([
       { path: 'homecomponent', component: HomeComponent },
